@@ -87,7 +87,7 @@ That's all great and good, but we don't want to add lots of cards to our list on
 Let's just start with 5 cards. (It's always better to start with a small number and then add in more as you need them.) We want to build a counting loop that starts at 0 and counts to 4, adding a new `Card` object to our list each time. Here's what the skeleton will look like, using only code that we've used before in projects or class.
 
 ```java
-// declare and initialize the variable with the number of students
+// declare and initialize the variable with the number of cards
 
 // declare an index variable that keeps track of where we are in the loop
 // and initializes it to 0
@@ -108,10 +108,10 @@ Let's just start with 5 cards. (It's always better to start with a small number 
 
 And now here's what everyone does:
 
-1. Here's the full set of code that you can use in StudentProject.java. It is vital that you work on understanding why each line does what it does. Don't just copy it in without paying attention to that.
+1. Here's the full set of code that you can use in CTIS210Project9.java. It is vital that you work on understanding why each line does what it does. Don't just copy it in without paying attention to that.
 
     ```java
-    // declare and initialize the variable with the number of students
+    // declare and initialize the variable with the number of cards
 
     int nCards = 5;
 
@@ -121,7 +121,7 @@ And now here's what everyone does:
     int iCard = 0;
 
     // start a while loop that runs while the index is less than the number of
-    // students
+    // cards
 
     while (iCard < nCards) {
         // in the while loop, instantiate a random Card object with the empty constructor
@@ -159,7 +159,7 @@ The keyword is `for`. The statement in parentheses says to take **each** object 
 
 What are we going to do in this loop? First, we will initialize a variable named `faceCards` that will keep track of how many face cards are in the list. Then, in the loop, we will use the `countFaceCards` method in the `Card` class to decide whether each card is a face card. If so, we'll increment `faceCards.`
 
-1. Add the following code just after you've created your list with multiple students.
+1. Add the following code just after you've created your list with multiple cards.
 
     ```java
     int faceCards = 0;
